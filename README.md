@@ -1,5 +1,5 @@
 # Clinical Trial Recruitment App
-#### Video Demo:  <URL https://www.youtube.com/watch?v=lNkVh--CfCU>
+#### Video Demo:  https://drive.google.com/file/d/1hCJHBcK-UpDRtPRFuAZwbmMkpn8om6QL/view?usp=sharing
 #### Description:
 # Introduction - 
 ## Clinical trial enrollment is a large barrier to biomedical research. Trials are much longer and much more costly as a result of slow recruitment. This leads to higher drug prices and sluggish progress for modern science. I created an app that allows patients to enter information about themselves and sign up to recieve emails about trials they may qualify for. As a clinical research coordinator at Tufts Medical Center, I witness this sluggish progress first hand, as I often ponder how much further along medicine could be if these 3 year trials could be done in just one year. My team specializes in the disease pulmonary hypertension. As a result, my app focuses on patients who have received a clear diagnosis in pulmonary hypertension.
