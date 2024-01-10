@@ -1,0 +1,137 @@
+.header {
+    background-color: #328cdb;
+    color: rgb(249, 246, 246);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 30px;
+    overflow-y: auto;
+  }
+
+  .mission {
+    background-color: #328cdb;
+    color: rgb(249, 246, 246);
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 20px;
+    overflow-y: auto;
+  }
+
+  .who {
+    color: rgb(255, 51, 0);
+    padding: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    overflow-y: auto;
+  }
+
+  .eligible {
+    color: black;
+    padding: 3px;
+    font-size: 15px;
+    margin: 5px 0;
+    font-weight: bold;
+     overflow-y: auto;
+  }
+
+  header em {
+    font-style: italic;
+  }
+
+  /* Main Content Styles */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+  }
+
+  /* Radio Button Styles */
+  div > p {
+    margin-top: 10px;
+  }
+
+  label {
+    margin-right: 10px;
+  }
+
+  /* Button Styles */
+  button.answer {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  button.answer:hover {
+    background-color: #0056b3;
+  }
+
+  /* Feedback Styles */
+  p#feedback {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  /* Footer Styles */
+  footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 100;
+    width: 100%;
+  }
+
+  .fixed-bottom {
+    font-size: 12px;
+    color: #6c757d;
+  }
+  .IfEligibile {
+    text-align: left-center;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .AddPatientBody {
+    text-align: left-center;
+    padding: 30px;
+    overflow-y: auto;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .AddPatientBody input, .AddPatientBody select {
+    width: 100%; /* Make the input and select elements take up the full width */
+    padding: 10px; /* Add padding for spacing within the input/select */
+    margin-bottom: 20px; /* Increase margin to add space below each input/select */
+}
+
+.welcome {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.complete {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+.congrats {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.image {
+  text-align: center;
+}

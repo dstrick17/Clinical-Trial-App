@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+ <!--Meta tag allows it to be mobile device friendly-->
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+ <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+ <title>My Webpage</title>
+
+    </head>
+    <body class="AddPatientBody">
+        <h1 class="welcome">Add a Patient</h1>
+        <form method="POST" action="/add_patient">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required><br>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required><br>
+
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age" required><br>
+
+            <label for="who_group">WHO Group:</label>
+            <input type="text" id="who_group" name="who_group" required><br>
+
+            <label for="bmi">BMI:</label>
+            <input type="text" id="bmi" name="bmi" required><br>
+
+            <label for="pvr">Pulmonary Vascular Resistance (Wood Units):</label>
+            <input type="text" id="pvr" name="pvr" required><br>
+
+            <label for="fvc">Forced Vital Capacity (% predicted):</label>
+            <input type="text" id="fvc" name="fvc" required><br>
+
+
+            <label for="pde5">Pick your phosphodiesterase 5 inhibitor:</label>
+            <select name="pde5">
+                <option>None</option>
+                <option>Tadalafil</option>
+                <option>Sildenafil</option>
+                <option>Riociguat</option>
+            </select>
+                <br>
+
+            <label for="prost">Choose your prostacyclin:</label>
+            <select name="prost">
+                <option>None</option>
+                <option>IV-Epoprostenol</option>
+                <option>IV-Treprostinil</option>
+                <option>Inhaled-Treprostinil</option>
+                <option>Oral-Treprostinil</option>
+                <option>Selexipag</option>
+
+            </select>
+                <br>
+
+            <label for="era">Chooser your endothelian receptor antagonist:</label>
+            <select name="era"
+            >
+            <option>None</option>
+            <option>Bosentan</option>
+            <option>Ambrisentan</option>
+            <option>Macitentan</option>
+            </select> <br>
+
+            <label for="email">Email address:</label>
+            <input type="text" id="email" name="email" required><br>
+
+            <input type="submit" value="Submit">
+            <div>
+                <a href="/">Back to Homepage</a>
+            </div>
+        </form>
+    </body>
+</html>
